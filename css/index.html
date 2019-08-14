@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--
+viva 2018
+-->
+
+<html>
+  <head>
+    <title>VIVA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!--Bootshape-->
+    <link href="css/bootshape.css" rel="stylesheet">
+  </head>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51463774-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-51463774-1');
+</script>
+
+
+	
+  <body>
+    <!-- Navigation bar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">VIVA | University of Virginia </a></div>
+        <nav role="navigation" class="collapse navbar-collapse navbar-right">
+          <ul class="navbar-nav nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="#" class="dropdown-toggle">Research <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+				<li><a href="pages/recentwork.html">Recent work</a></li>
+<li><a href="pages/highlightedwork.html">Highlighted work</a></li>
+              	<li><a href="pages/toolbelt.html">Toolbelt</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="#" class="dropdown-toggle">Group <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/currentmember.html">Current members</a></li>
+                <li><a href="pages/alumni.html">Alumni</a></li>
+				<li><a href="pages/photos.html">photos</a></li>
+              </ul>
+            </li>
+			<li><a href="pages/calendar.html">Calendar</a></li>
+          	<li><a href="pages/tutorialpage.html">Tutorial</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div><!-- End Navigation bar -->
+
+    <!-- Slide gallery -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-xs-12">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/1.jpg" alt="">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/2.jpg" alt="">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/3.jpg" alt="">
+              <div class="carousel-caption">
+              </div>
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        </div>
+      </div><!-- End Slide gallery -->
+    </div>
+	  
+	    
+    <!-- Thumbnails -->
+    <div class="container">
+		<div class="row">
+      <div class="col-sm-4 col-md-4">
+        <div class="">
+        <h6 class="">HOT OFF THE PRESS</h6>
+		<div class="event">
+		<!-- <div class="text-right date">02/14/2018</div> -->
+	    <h4 class="">2018 WORK ON IMAGE ANALYSIS FOR NEUROSCIENCE</h4>
+        <p2>Check out these 4 papers that just came out of our lab. We are collaborating with UVA neuroscientists and biologists to address the most important question in all of engineering and medicine... how does the brain work?</p2>
+			<div class="text-right">
+              <a href="pages/recentwork.html">See more...</a>
+            </div>
+      	</div>
+		<div class="event">
+            <!--<div class="text-right date">01/22/2018</div>-->
+            <p2>Check out our lastest publications in Google Scholar.</p2>
+            <div class="text-right">
+              <a href="https://scholar.google.com/citations?user=1HVnbCYAAAAJ&hl=en&oi=ao">See more...</a>
+            </div>
+          </div>  
+		  
+		  </div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="img/research/ElasticP2P.png" alt="" class="img-responsive">
+          <div class="caption">
+            <h5 class="">ElasticPath2Path: Automated morphological classification of neurons by elastic path matching</h5>
+            <p>In the study of neurons, morphology influences function. The complexity in the structure of neurons poses a challenge in the identification and analysis of similar and dissimilar neuronal cells...</p>
+            <div class="btn-toolbar text-center">
+              <a href="https://arxiv.org/abs/1802.06913" role="button" class="btn btn-primary pull-right">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="img/research/FIguretuff-bff.png" alt="" class="img-responsive">
+          <div class="caption">
+            <h5 class="">The Coupled TuFF-BFF Algorithm for Automatic 3D Segmentation of Microglia</h5>
+            <p>We propose an automatic 3D segmentation algorithm for multiphoton microscopy images of microglia. Our method is capable of segmenting tubular and blob-like structures from noisy images...</p>
+            <div class="btn-toolbar text-center">
+              <a href="https://arxiv.org/abs/1802.04156" role="button" class="btn btn-primary pull-right">Details</a>
+            </div>
+          </div>
+        </div>
+      </div></div>
+		
+		
+	<div class="row">
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="img/research/haoyi.png" alt="" class="img-responsive">
+          <div class="caption">
+            <h5 class="">OSLO: Automatic Cell Counting and Segmentation for Oligodendrocyte Progenitor Cells</h5>
+            <p>Reliable cell counting and segmentation of oligodendrocyte progenitor cells (OPCs) are critical image analysis steps that could potentially unlock mysteries regarding OPC function during pathology....</p>
+            <div class="btn-toolbar text-center">
+              <a href="https://arxiv.org/abs/1802.05321" role="button" class="btn btn-primary pull-right">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="img/research/shapefilter.png" alt="" class="img-responsive">
+          <div class="caption">
+            <h5 class="">Nonlinear Shape Regression For Filtering Segmentation Results From Calcium Imaging</h5>
+            <p>A shape filter is presented to repair segmentation results obtained in calcium imaging of neurons in vivo. This post-segmentation algorithm can automatically smooth the preliminary segmentations...</p>
+            <div class="btn-toolbar text-center">
+              <a href="https://arxiv.org/abs/1802.05318" role="button" class="btn btn-primary pull-right">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	<div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="img/research/nazia.png" alt="" class="img-responsive">
+          <div class="caption">
+            <h5 class="">Speckle removal and change preservation by distance-driven anisotropic diffusion of synthetic aperture radar temporal stacks</h5>
+            <p>We propose a method that smoothes spatially and uses, but also preserves, temporal information of synthetic aperture radar image stacks. To provide smoothing of such imagery without effacing temporal changes in the scene...</p>
+            <div class="btn-toolbar text-center">
+              <a href="https://www.sciencedirect.com/science/article/pii/S1051200417302762#fg0110" role="button" class="btn btn-primary pull-right">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Thumbnails -->
+    <!-- Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <img src="img/people/2016falle11.png" alt="" class="img-responsive">
+          <br>
+        </div>
+        <div class="col-sm-4">
+		<div class="event">
+        <h6 class="">SAY HI TO OUR GROUP</h6>
+		<h4>WE ARE VIVA!</h4>
+      	<p2>Learn more about our <a href="pages/currentmember.html"> cool members </a> and <a href="pages/alumni.html">excellent alumni</a>! Check out our <a href="pages/recentwork.html"> current work</a> in VIVA and latest publiations in <a href="https://scholar.google.com/citations?user=1HVnbCYAAAAJ&hl=en&oi=ao">Google Scholar page</a>.</p2>
+			<br>
+			<br>
+		</div>
+		<div class="event">
+		<h6>CONTACT US</h6>
+		<p2>Scott T. Acton</p2><br>
+		<p2>P.O.Box 400743, Charlottesville, VA 22904</p2><br>
+		<p2>viva.uva@gmail.com</p2>
+		</div>	
+      </div>
+	</div>
+	</div>
+	</div>
+	<!-- End Thumbnails -->
+	  
+	<div class="container">
+	   <img src="img/footer.png" alt="" class="img-responsive">   
+	</div>
+	  
+	  
+    <!-- Footer -->
+    <div class="footer text-center">
+		<p> <a href="http://www.virginia.edu/">University of Virginia</a> | <a href="https://engineering.virginia.edu/">School of Engineering &amp; Applied Science</a> | <a href="https://engineering.virginia.edu/departments/electrical-and-computer-engineering">Charles L. Brown Electrical and Computer Engineering</a> | <a href="http://viva-lab.ece.virginia.edu/foswiki/bin/view">VIVA wikipage</a></p>
+        <p> Copyright &copy; 2018 - All Rights Reserved - <a href="#">VIVA</a></p>
+    </div><!-- End Footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootshape.js"></script>
+  </body>
+</html>
